@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+venv
+
+# SSL certificates
+*.pem
+
+__pycache__/
+*.db
