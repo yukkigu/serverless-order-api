@@ -122,11 +122,17 @@ sudo apt install python3-pip python3-venv -y
 
 ### 5. Transfer local code to EC2
 
+#### Method 1: Use `scp` to copy files
 ```bash
 # On local terminal:
 scp -i "C:/FILE/PATH/key-file.pem" -r \
  "C:/PROJECT/PATH/<project-name>" \
  ubuntu@<Public-IP-address>:~/<project-name>
+```
+
+#### Method 2: Git clone
+```bash
+git clone https://github.com/yukkigu/serverless-order-api.git
 ```
 
 ### 6. Set up Virtual Environment
