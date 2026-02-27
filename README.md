@@ -319,9 +319,9 @@ Expected behavior:
 
 - Order is retrievable
 - Only one order exists for that key
-
+  
+Expected return: 
 ```json
-// Expected return
 {
   "order_id": "<id_num>",
   "customer_id": "cust1",
