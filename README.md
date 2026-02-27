@@ -33,11 +33,25 @@ serverless-order-api/
 
 ### To run locally:
 
+#### Method 1: `.zip` file
+
 ```bash
 # navigate to directory with zip file and unzip
 unzip serverless-order-api.zip
 cd serverless-order-api
+```
 
+#### Method 2: Git clone
+
+```bash
+git clone https://github.com/yukkigu/serverless-order-api.git
+```
+
+### Set up environment
+
+App will be available at `http://localhost:8000`
+
+```bash
 # create and activate local virtual environment
 python3 -m venv venv
 source venv/bin/activate
@@ -47,8 +61,6 @@ pip install -r requirements.txt
 
 # run app
 uvicorn app.main:app --reload
-
-# App will be available at `http://localhost:8000`
 ```
 
 ## Deployment Instructions
