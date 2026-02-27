@@ -132,6 +132,7 @@ scp -i "C:/FILE/PATH/key-file.pem" -r \
 
 #### Method 2: Git clone
 ```bash
+# On EC2 ssh terminal
 git clone https://github.com/yukkigu/serverless-order-api.git
 ```
 
